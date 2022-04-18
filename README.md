@@ -12,7 +12,7 @@
 
 ### [for, for in, for of, and while loops & Callback Functions](./forLoop_while_callback_fuc)
 
-### ### [forEach and Mapping](./forEach_mapping)
+### [forEach and Mapping](./forEach_mapping)
 
 ### [find and filter](./#)
 

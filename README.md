@@ -2,7 +2,7 @@
 
 [Primitive Data Types](./primitive_data_types)
 
-[Different_ways_to_declare_functions](./different_ways_to_declare_functions)
+[Different ways to declare functions](./different_ways_to_declare_functions)
 
 [Order Of Operations, If Statements, Truthy and Falsy](./#)
 

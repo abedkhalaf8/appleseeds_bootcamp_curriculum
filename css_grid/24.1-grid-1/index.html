@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       <style>
+            .grid {
+                display: grid;
+                grid-template-columns: 200px 200px  200px 200px 200px 200px ;
+                grid-template-rows: 50px 50px 50px  50px 50px 50px 50px 50px 50px ;
+                grid-gap: 6px;    
+            }
+            .item1 { background-color:red;
+                     border-radius: 7px;
+                     grid-column: span 2;          
+            }
+            .item2 { background-color:blue;
+                border-radius: 7px;
+            }
+            .item3 { background-color:green;
+                border-radius: 7px;
+                grid-row: 2;
+            }
+            .item4 { background-color:purple;
+                border-radius: 7px;
+                grid-column: span 2;
+                grid-row: 2;
+            }
+            .item5 { background-color:yellow;
+                border-radius: 7px;
+                grid-column: span 3;
+                grid-row: 3;
+            }
+       </style>
+    </head>
+    <body>
+        <div class="grid">
+            <div class="item1"></div>
+            <div class="item2"></div>
+            <div class="item3"></div>
+            <div class="item4"></div>
+            <div class="item5"></div>         
+        </div>
+    </body>
+</html>

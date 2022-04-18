@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       <style>
+            .grid {
+                    display: grid;
+                    grid-template-columns: 100px 100px  100px 100px 100px 100px  100px ;
+                    grid-template-rows: 50px 50px 50px  50px 50px 50px 50px 50px 50px ;
+                    grid-gap: 15px;  
+             }
+
+            .header { 
+                     background-color:red;
+                     border-radius: 7px;
+                     grid-column: span 7;  
+                     color: white;
+                     padding: 15px;
+            }
+            .sidebar { 
+                     background-color:blue;
+                     border-radius: 7px;
+                     grid-column-start: 1;
+                     grid-column-end: 3;
+                     grid-row: span 2;
+                     color: white;
+                     padding: 15px;
+
+            }
+            .sidebar2 { 
+                     background-color:purple;
+                     border-radius: 7px;
+                     grid-row: span 2;
+                     grid-column-start: 6;
+                     grid-column-end: 8;
+                     color: white;
+                     padding: 15px;
+            }
+            .content { 
+                     background-color:green;
+                     border-radius: 7px;
+                     padding: 1px;
+                     grid-row: span 2;
+                     grid-column-start:3;
+                     grid-column-end: 6;
+                     color: white;
+                     font-size: 15px;
+            }
+          .footer { 
+                  background-color:yellow;
+                  border-radius: 7px;
+                  grid-column: span 2;
+                  grid-row: 4;
+                  grid-column-start: 1;
+                  grid-column-end: 8;
+                  color: white;
+                  padding: 15px;
+            }
+            @media(max-width: 1052px) {
+                .grid {
+                    display: grid;
+                    grid-template-columns: 100px 100px  100px 100px 100px;
+                    grid-template-rows: 50px 50px 50px  50px 50px 50px ;
+                    grid-gap: 15px;  
+             }
+
+            .header { 
+                     background-color:red;
+                     border-radius: 7px;
+                     grid-column: span 7;  
+                     color: rgb(255, 255, 255);
+                     padding: 15px;
+            }
+            .sidebar { 
+                     background-color:blue;
+                     border-radius: 7px;
+                     grid-column-start: 1;
+                     grid-column-end: 3;
+                     grid-row: span 2;
+                     color: white;
+                     padding: 15px;
+
+            }
+            .sidebar2 { 
+                     background-color:purple;
+                     border-radius: 7px;
+                     grid-row: 4;
+                     grid-column-start: 1;
+                     grid-column-end: 8;
+                     color: white;
+                     padding: 15px;
+            }
+            .content { 
+                     background-color:green;
+                     border-radius: 7px;
+                     font-size: 13px;
+                     grid-row: span 2;
+                     grid-column-start:3;
+                     grid-column-end: 8;
+                     color: white;
+                     padding: 8px;
+            }
+          .footer { 
+                  background-color:yellow;
+                  border-radius: 7px;
+                  grid-column: span 2;
+                  grid-row: 5;
+                  grid-column-start: 1;
+                  grid-column-end: 8;
+                  color: white;
+          } 
+        }
+            @media(max-width: 600px) {
+                .grid {
+                    display: grid;
+                    grid-template-columns: 100px 100px  100px;
+                    grid-template-rows: 50px 50px 50px  50px;
+                    grid-gap: 15px;  
+             }
+
+            .header { 
+                     background-color:red;
+                     border-radius: 7px;
+                     grid-column: span 7;  
+                     color: rgb(255, 255, 255);
+                     padding: 15px;
+                     grid-row: 1;
+
+            }
+            .sidebar { 
+                     background-color:blue;
+                     border-radius: 7px;
+                     grid-column-start: 1;
+                     grid-column-end: 8;
+                     grid-row: 2;
+                     grid-column: span 7;  
+
+                     color: white;
+                     padding: 15px;
+
+            }
+            .sidebar2 { 
+                     background-color:purple;
+                     border-radius: 7px;
+                     grid-row: 5;
+                     grid-column-start: 1;
+                     grid-column-end: 8;
+                     color: white;
+                     padding: 15px;
+            }
+            .content { 
+                     background-color:green;
+                     border-radius: 7px;
+                     font-size: 13px;
+                     grid-row: span 2;
+                     grid-column-start:1;
+                     grid-column-end: 8;
+                     color: white;
+                     padding: 8px;
+            }
+          .footer { 
+                  background-color:yellow;
+                  border-radius: 7px;
+                  grid-column: span 2;
+                  grid-row: 6;
+                  grid-column-start: 1;
+                  grid-column-end: 8;
+                  color: white;
+          }     
+        } 
+       </style>
+    </head>
+    <body>
+        <div class="grid">
+            <div class="header">Header</div>
+            <div class="sidebar">Sidebar</div>
+            <div class="content">
+               <h4>Content</h4>
+                  <p> More content than we had before so this</p>
+                  <p> column is now quite tall</p>
+            </div>
+            <div class="sidebar2">Sidebar 2</div>
+            <div class="footer">footer</div>         
+        </div>
+    </body>
+</html>

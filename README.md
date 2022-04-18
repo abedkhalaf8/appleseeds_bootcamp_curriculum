@@ -1,7 +1,9 @@
 # Appleseeds Bootcamp Curriculum
 
 [Primitive Data Types](./primitive_data_types)
+
 [Different_ways_to_declare_functions](./different_ways_to_declare_functions)
+
 [Order Of Operations, If Statements, Truthy and Falsy](./#)
 [Coercion, Ternaries, Conditional Abuse, and Switch Statements & Data Type - Arrays](./switch_arrays_methods)
 [Data Type - Objects](./objects)

@@ -1,0 +1,13 @@
+function swap (obj) {
+    let obj2={};
+    let arr = [];
+    let arr2 = [];
+    arr = Object.getOwnPropertyNames(obj);
+    arr2 = Object.values(obj);
+       for (let i = 0; i<arr.length; i++){
+              obj2[arr2[i]] = arr[i];
+       }
+     console.log(obj2);
+ }
+ obj = {type: 'abed', year: '2007'};
+ swap(obj);

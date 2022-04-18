@@ -1,9 +1,7 @@
 # Appleseeds Bootcamp Curriculum
 
 ### Primitive Data Types
-Module 1 - Section 2-3 (6-27)
-
-[primitive_data_types](./primitive_data_types)
+[primitive data types](./primitive_data_types)
 
 ### Function Basics
 ### Different Ways to Declare Functions

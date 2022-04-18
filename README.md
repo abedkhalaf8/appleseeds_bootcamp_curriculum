@@ -1,6 +1,6 @@
 # Appleseeds Bootcamp Curriculum
 
-[Primitive Data Types](./primitive_data_types)
+### [Primitive Data Types](./primitive_data_types)
 
 [Different ways to declare functions](./different_ways_to_declare_functions)
 

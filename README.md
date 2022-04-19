@@ -18,7 +18,7 @@
 
 ### [Sort & Reduce Method & EXTRA](./sort_reduce)
 
-### [Debugging Tools & Scope & Hoisting](./#)
+### [Debugging Tools & Scope & Hoisting](./Debugging)
 
 
 

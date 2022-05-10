@@ -1,25 +1,11 @@
- body {
-            background-color: azure;
-        }
-        * {
-            font-family: 'Courier New', Courier, monospace;
-        }
-          h1 {
-         border-style: groove;
-         position: relative;
-         text-align: center;
-         background-color: antiquewhite;
-        }
-        .header {
-            position: absolute;
-            align-items: center;
-           left: 50%;
-        }
-        .header input {
-            border-radius: 20px;
-            text-align: center;
-        }
-        .header button {
-            border-radius: 20px;
-            background-color: aqua;
-} 
+.row {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.cell {
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  width: 20%;
+}
